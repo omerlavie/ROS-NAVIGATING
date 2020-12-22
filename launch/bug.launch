@@ -1,0 +1,15 @@
+<launch> 
+    <param name="/use_sim_time" value="true" />   
+    
+    <!-- Launch turtle bot world -->
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"/>
+    <!-- Launch stopper node -->
+    <node name="bug2" pkg="bug" type="bug2_node.py" output="screen">
+        <param name="goal_x" type="double" value="-8"/>
+        <param name="goal_y" type="double" value="-7"/>
+    </node>
+</launch>
+
+
+
+
