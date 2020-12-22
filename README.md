@@ -1,5 +1,5 @@
 # ROS-NAVIGATING
-A ROS program written in Python for navigating from a given source point to a given destination point while avoiding obstacles on the grid. The algorithm used for navigation is Bug 2 (all of the turns in this code are to the right).
+A ROS kinetic program written in Python for navigating from a given source point to a given destination point while avoiding obstacles on the grid. The algorithm used for navigation is Bug 2 (all of the turns in this code are to the right).
 For more information about the Bug 2 algorithm: https://www.cs.cmu.edu/~motionplanning/lecture/Chap2-Bug-Alg_howie.pdf
 
 ## Running the program
